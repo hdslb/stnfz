@@ -4,4 +4,4 @@
     X-Backend-Server = "AWS-S3-Alpha"
     X-Load-Balancer = "CloudXNS-GeoDNS"
     X-GSLB = "CDN-Netlify"
-    Accee-Allow-Origin = "*"
+    Access-Allow-Origin = "*"
