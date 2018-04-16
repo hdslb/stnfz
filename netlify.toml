@@ -5,3 +5,4 @@
     X-Load-Balancer = "CloudXNS-GeoDNS"
     X-GSLB = "CDN-Netlify"
     Access-Control-Allow-Origin = "*"
+	Cache-Control = "public, must-revalidate, max-age=691200, s-max-age=10368000"
