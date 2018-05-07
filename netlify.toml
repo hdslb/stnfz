@@ -1,7 +1,8 @@
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
   [headers.values]
-    X-Backend-Server = "AWS-S3-Alpha"
+    X-Backend-Server = "AWS-S3-Beta"
     X-Load-Balancer = "CloudXNS-GeoDNS"
     X-GSLB = "CDN-Netlify"
     Access-Control-Allow-Origin = "*"
+	Cache-Control = "public, must-revalidate, max-age=691200"
